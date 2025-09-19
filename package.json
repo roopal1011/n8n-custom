@@ -35,12 +35,14 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
+      "dist/nodes/BinancePrice/BinancePrice.node.js",
       "dist/credentials/ExampleCredentialsApi.credentials.js",
       "dist/credentials/HttpBinApi.credentials.js"
     ],
     "nodes": [
       "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/HttpBin/HttpBin.node.js",
+      "dist/nodes/HttpVerb/HttpVerb.node.js"
     ]
   },
   "devDependencies": {
@@ -54,6 +56,5 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
-  },
-  "dependencies": {}
+  }
 }
