@@ -1,19 +1,22 @@
 {
-  "name": "n8n-nodes-custom-node",
+  "name": "n8n-nodes-roopal-custom",
   "version": "0.1.0",
-  "description": "",
+  "description": "Custom n8n nodes for integrations and API workflows",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n",
+    "n8n-community-node-package",
+    "custom-node",
+    "workflow"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/roopal1011/n8n-custom",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Roopal Rastogi",
+    "email": "your-email@example.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/test/n8n-nodes-test.git"
+    "url": "https://github.com/roopal1011/n8n-custom.git"
   },
   "main": "index.js",
   "scripts": {
@@ -52,8 +55,5 @@
   "peerDependencies": {
     "n8n-workflow": "*"
   },
-  "dependencies": {
-    "edge": "^7.10.1",
-    "edge.js": "^6.2.0"
-  }
+  "dependencies": {}
 }
